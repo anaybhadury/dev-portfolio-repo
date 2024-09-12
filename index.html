@@ -22,7 +22,7 @@
             theme: {
                 extend: {
                     colors: {
-                        'primary-color': '',
+                        'primary-color': '#00B4FF',
                         'secondary-color': '',
                         'bg-color': '#08232F'
                     },
@@ -38,10 +38,22 @@
     </script>
 </head>
 <body class="font-poppins">
-    <header class="container mx-auto ">
-        <section>
-            <nav>
-
+    <header class="bg-bg-color">
+        <section class="container mx-auto ">
+            <nav class="flex justify-between pt-10 items-center">
+                <div class="">
+                    <h1 class="text-3xl font-bold text-primary-color">Anay B.</h1>
+                </div>
+                <div class="flex justify-center items-center">
+                    <ul class="flex gap-7 text-primary-color">
+                        <li class="text-md font-semibold">Home</li>
+                        <li class="text-md font-semibold">About</li>
+                        <li class="text-md font-semibold">Skill</li>
+                        <li class="text-md font-semibold">Services</li>
+                        <li class="text-md font-semibold">Contact</li>
+                    </ul>
+                    <button class="px-4 py-4 rounded-md border-2 border-primary-color bg-transparent font-bold text-lg ml-7 text-primary-color">Download CV</button>
+                </div>
             </nav>
         </section>
     </header>
